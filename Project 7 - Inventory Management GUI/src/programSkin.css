@@ -1,0 +1,65 @@
+.root{
+   -fx-background-image: url("background.jpg");
+   -fx-background-size: cover;
+}
+
+.button{
+    -fx-text-fill: black;
+    -fx-font-family: "Courrier";
+    -fx-font-weight: bold;
+    -fx-background-color: #54c9f9;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: #4786be;
+}
+
+.borders{
+    -fx-border-color: black;
+    -fx-border-style: dashed;
+    -fx-border-width: 5;
+}
+
+.table-view .column-header {
+    -fx-background-color: #54c9f9;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color,#54c9f9;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color,#54c9f9;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;  
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #4786be;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.menu-bar,
+.menu-item {
+    -fx-background-color: #54c9f9;
+}
+.menu-item:hover{
+    -fx-background-color: #4786be;
+}
+
+.context-menu {
+    -fx-background-color:#54c9f9 ;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
